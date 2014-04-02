@@ -28,6 +28,7 @@ build() {
   msg "Starting build..."
 
   cd "$_gitname"
+  autoreconf -i
   ./configure --prefix=/usr
   make
 }
