@@ -7,7 +7,7 @@ arch=('i686' 'x86_64')
 url="http://sourceforge.net/projects/readable/"
 license=('MIT')
 depends=()
-makedepends=('git','python','autoconf','automake','guile')
+makedepends=('git' 'python' 'autoconf' 'automake' 'guile')
 conflicts=()
 
 _gitroot='git://git.code.sf.net/p/readable/code'
