@@ -6,6 +6,7 @@ pkgdesc="Readable s-expressions for Lisp and Scheme (t-expressions)."
 arch=('i686' 'x86_64')
 url="http://sourceforge.net/projects/readable/"
 license=('MIT')
+md5sums=()
 depends=()
 makedepends=('git' 'python' 'autoconf' 'automake' 'guile')
 provides=('curly-guile'
