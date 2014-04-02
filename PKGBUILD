@@ -27,19 +27,13 @@ build() {
   msg "GIT checkout done or server timeout"
   msg "Starting build..."
 
-  rm -rf "$srcdir/$_gitname-build"
-  git clone "$srcdir/$_gitname" "$srcdir/$_gitname-build"
-  cd "$srcdir/$_gitname-build"
-
-  #
-  # BUILD HERE
-  #
+  cd "$_gitname"
   ./configure --prefix=/usr
   make
 }
 
 package() {
-  cd "$srcdir/$_gitname-build"
+  cd "$srcdir"
   make DESTDIR="$pkgdir/" install
 }
 
