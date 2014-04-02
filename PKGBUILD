@@ -8,8 +8,14 @@ url="http://sourceforge.net/projects/readable/"
 license=('MIT')
 depends=()
 makedepends=('git' 'python' 'autoconf' 'automake' 'guile')
+provides=('curly-guile'
+          'neoteric-guile'
+          'sweet-guile'
+          'unsweeten'
+          'diff-s-sweet'
+          'sweeten'
+          'sweet-run')
 conflicts=()
-
 _gitroot='git://git.code.sf.net/p/readable/code'
 _gitname='readable'
 
