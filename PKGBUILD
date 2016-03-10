@@ -1,9 +1,9 @@
 # Maintainer: Jordan Brown <mrhmouse@gmail.com>
 pkgname=readable-git
-pkgver=20140402
+pkgver=20160310
 pkgrel=1
 pkgdesc="Readable s-expressions for Lisp and Scheme (t-expressions)."
-arch=('i686' 'x86_64')
+arch=('i686' 'x86_64' 'armv6h')
 url="http://sourceforge.net/projects/readable/"
 license=('MIT')
 md5sums=()
